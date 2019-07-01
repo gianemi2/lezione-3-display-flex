@@ -1,0 +1,30 @@
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    color: #C63422;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #C63422;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.navigation-bar a:hover {
+    color: white;
+    transform: scale(1.1);
+    background-color: #C63422;
+}
